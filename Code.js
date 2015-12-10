@@ -15,7 +15,7 @@ function archiveThreads(filter) {
 }
 
 /**
- * Goes through all archived threads older than 8 days
+ * Goes through all archived threads older than 10 days
  * that haven't been read yet and marks them as read.
  *
  * Threads are processed in blocks of 50 for optimization.
