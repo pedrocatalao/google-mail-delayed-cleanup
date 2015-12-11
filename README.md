@@ -1,7 +1,11 @@
 # google-mail-delayed-cleanup
-Google app script to automatically cleanup your google mail box in a delayed fashion
+Google app script to automatically cleanup your google mail box in a delayed fashion.
 
-## This is how get this running:
+I want to receive these emails because I find it useful and reliable to get the notifications that way (specially if I'm AFK) but, after a while, they are no longer useful and they start clogging my inbox.
+
+That's why I have this small script running. Every 30min it will search for messages that I don't find useful anymore and archive them.
+
+## This is how get it running:
 
 1. Open your Google Drive
 
@@ -33,4 +37,4 @@ Google app script to automatically cleanup your google mail box in a delayed fas
 
    ![](images/trigger.png)
 
-10. That's it!
+10. Done!
