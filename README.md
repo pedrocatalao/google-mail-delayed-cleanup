@@ -15,7 +15,7 @@ To make sure important messages are not archived, just mark them with a *Star* a
 
    ![](images/new.png)
 
-3. Name the script and paste the code from Github
+3. Name the script and paste the code from Github (``Code.gs``)
 
 4. Edit the filters as desired
 
