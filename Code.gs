@@ -7,9 +7,9 @@
  */
 function archiveThreads(filter) {
   var threads = GmailApp.search(filter);
-  Logger.log("Running: -%s- | Found: -%s-", filter, threads.length);
+  Logger.log("%s threads found with filter %s", threads.length.toString(), filter);
   for (j = 0; j < threads.length; j++) { // Archive threads
-    if (!threads[j].hasStarredMessages())
+    if (!threads[j].hasStarredMessages()) // Skips threads with starred messages
       GmailApp.moveThreadToArchive(threads[j]);
   }
 }
